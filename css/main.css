@@ -11,26 +11,43 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid 1px red;
 }
-
 .quickcontact-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-bottom: solid 1px #ccc;
 }
-.contactdetails{
+.contactdetails {
     display: flex;
+    justify-content: left;
     padding-left: 20px;
     padding-top: 15px;
+    font-size: 18px;
 }
 .contactdetails a{
     text-decoration: none;
+    color: #666;
+}
+.socialconnect a{
+    text-decoration: none;
+    color: #666;
 }
 .socialconnect{
     display: flex;
     padding-top: 15px;
     padding-right:15px;
+    
+}
+.contactlogo{
+    display: flex;
+    font-size: 18px;
+    color:#428bca;
+}
+.logosocial {
+    display: flex;
+    padding: 4px 12px;
+    font-size:18px;
 }
 .header-flex {
     display: flex;
